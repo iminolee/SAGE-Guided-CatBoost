@@ -1,7 +1,8 @@
+import os
 import numpy as np
 from catboost import CatBoostRegressor
 import sage
-from sage import plotting
+from sage.plotting import plot
 from df_loader import load_df
 import matplotlib.pyplot as plt
 
@@ -74,7 +75,7 @@ def main():
     for idx in sorted_indices:
         print(f"{feature_names[idx]}: {feature_importances[idx]:.4f}")
 
-    plot(
+    fig = plot(
         explanation,
         feature_names=feature_names,
         sort_features=True,
@@ -85,9 +86,15 @@ def main():
         title_size=18,
         label_size=14,
         tick_size=12,
-        return_fig=False
+        return_fig=True
     )
     plt.show()
+    
+    save_dir = "./result"
+    os.makedirs(save_dir, exist_ok=True)
+    save_path = os.path.join(save_dir, "plot.png")
+    fig.savefig(save_path)
+    print(f"Plot saved to: {save_path}")
 
 if __name__ == "__main__":
     main()

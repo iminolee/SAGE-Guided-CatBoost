@@ -9,3 +9,4 @@ dist
 *.egg-info
 *catboost_info
 data/*.csv
+result/*.csv

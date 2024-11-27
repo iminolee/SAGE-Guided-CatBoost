@@ -1,27 +1,27 @@
 Feature Importances (All):
-Month: 220.1436
-Dew Point Temperature: 123.5479
-Sea-level Pressure: 74.5632
-Hour: 39.8115
-Day: 3.4281
-Wind Direction (deg): 2.7410
-Visibility (m): 1.7106
-Wind Speed (KT): 1.6058
-Cloud Height 1st Layer (FT): 0.6206
-Year: 0.4446
-Cloud Cover 1st Layer (1/8): 0.3532
-Total Cloud Cover (1/8): 0.0079
+Month: 218.9274
+Dew Point Temperature: 120.5286
+Sea-level Pressure: 78.5907
+Hour: 36.9008
+Day: 3.3273
+Wind Direction (deg): 2.9353
+Wind Speed (KT): 1.6910
+Visibility (m): 1.5301
+Year: 1.2149
+Cloud Height 1st Layer (FT): 0.8110
+Cloud Cover 1st Layer (1/8): 0.2010
 Cloud Type 2nd Layer: 0.0000
 Cloud Type 1st Layer: 0.0000
 Weather Phenomenon: 0.0000
 Cloud Type 4th Layer: 0.0000
 Cloud Type 3rd Layer: 0.0000
-Cloud Type 1st Layer (null): -0.9192
-Cloud Height 3rd Layer (FT): -1.4887
-Cloud Height 2nd Layer (FT): -1.9534
-Weather Phenomenon (null): -5.2631
-Precipitation (mm): -6.2866
-Local Pressur: -34.9641
+Total Cloud Cover (1/8): -0.0503
+Cloud Type 1st Layer (null): -1.3481
+Cloud Height 3rd Layer (FT): -1.4002
+Cloud Height 2nd Layer (FT): -2.0565
+Weather Phenomenon (null): -4.8829
+Precipitation (mm): -6.2974
+Local Pressur: -31.8666
 
 Selected Features (importance >= 0.01):
 Year

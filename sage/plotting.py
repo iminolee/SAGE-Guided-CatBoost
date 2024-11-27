@@ -20,7 +20,7 @@ def plot(
     tick_rotation=None,
     label_size=16,
     figsize=(10, 7),
-    return_fig=False,
+    return_fig=True,
 ):
     """
     Plot SAGE values.

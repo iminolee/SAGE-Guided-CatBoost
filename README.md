@@ -7,7 +7,7 @@
 conda create -n sageboost python=3.8
 conda activate sageboost
 
-https://github.com/iminolee/SAGE-Guided-CatBoost.git
+git clone https://github.com/iminolee/SAGE-Guided-CatBoost.git
 cd SAGE-Guided-CatBoost
 pip install -r requirements.txt
 ```
