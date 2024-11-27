@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+.DS_Store
+Thumbs.db
+*.swp
+.eggs
+build
+dist
+*.egg-info
+*catboost_info
+data/*.csv
